@@ -46,7 +46,7 @@ public class ConsolaUI {
                 System.out.println("|4. BRL - Real brasileno              |");
                 System.out.println("|5. CLP - Peso chileno                |");
                 System.out.println("|6. COP - Peso colombiano             |");
-                System.out.println("|7. USD - Dólar Estadounidense        |");
+                System.out.println("|7. USD - Dolar Estadounidense        |");
                 System.out.println("|_____________________________________|");
                 System.out.println("|X. Salir                             |");
                 System.out.println("|_____________________________________|");
@@ -97,7 +97,7 @@ public class ConsolaUI {
                 System.out.println("|4. BRL - Real brasileno              |");
                 System.out.println("|5. CLP - Peso chileno                |");
                 System.out.println("|6. COP - Peso colombiano             |");
-                System.out.println("|7. USD - Dólar Estadounidense        |");
+                System.out.println("|7. USD - Dolar Estadounidense        |");
                 System.out.println("|_____________________________________|");
                 System.out.println("|X. Salir                             |");
                 System.out.println("|_____________________________________|");
@@ -139,9 +139,9 @@ public class ConsolaUI {
                             convertidor.obtenerNombreMoneda(monedaDestino));
 
                     if (resultado == 0) {
-                        System.out.println("¿Seguro que necesitabas un programa para saber que 0 es igual a 0?");
-                        System.out.println("Resultado: 0.0 (implementacion perfecta, pero ¿para qué?)");
-                        System.out.println("(Al menos esta conversion nunca tendra problemas de redondeo)");
+                        System.out.println("Seguro que necesitabas un programa para saber que 0 es igual a 0?");
+                        System.out.println("Resultado: 0.0 ,implementacion perfecta, pero, para que?");
+                        System.out.println("Al menos esta conversion nunca tendra problemas de redondeo");
                     } else {
                         System.out.println("Se convirtio correctamente");
                         System.out.println("La app funciona, pero no era necesario");
@@ -186,7 +186,7 @@ public class ConsolaUI {
 
         scanner.close();
         System.out.println("_______________________________________");
-        System.out.println("Gracias por usar el conversor de monedas. ¡Hasta pronto!");
+        System.out.println("Gracias por usar el conversor de monedas. Hasta pronto!");
         System.out.println("_______________________________________");
     }
     
