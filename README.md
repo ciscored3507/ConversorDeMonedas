@@ -51,21 +51,34 @@ HttpResponse<String> response = client.send(
 ```
 ## 🚀 Cómo ejecutar el proyecto
 
-1. **Clonar el repositorio**:
+1. **Abre Git bash**
+
+Si aun no lo tienes instalado visita la pagina oficial de [Git](https://git-scm.com/downloads) para descargar e instalar.
+
+3. **Abre la ubicación donde clonaras el repositorio**:
+   Ejmplo:
+   ```bash
+   cd Documents
+   ```
+> Apoyate de `ls` para listar los archivos y directorios dentro de un directorio.
+4. **Clonar el repositorio**:
 
    ```bash
-   git clone https://github.com/tu-usuario/ConversorDeMonedas.git
+   git clone https://github.com/ciscored3507/ConversorDeMonedas.git
+   ```
+2. **Abrir ubicación de la App**:
+   ```bash
    cd ConversorDeMonedas
    ```
 
 2. **Compilar el proyecto**:
    ```bash
-   javac -d bin -cp "lib/gson-2.8.9.jar" src/ConversorDeMonedas/*.java src/ConversorDeMonedas/**/*.java
+   javac -d bin -cp "lib/gson-2.13.1.jar" src/ConversorDeMonedas/*.java src/ConversorDeMonedas/**/*.java
    ```
 
 3. **Ejecutar la aplicación**:
    ```bash
-   java -cp "bin;lib/gson-2.8.9.jar" ConversorDeMonedas.App
+   java -cp "bin;lib/gson-2.13.1.jar" ConversorDeMonedas.App
    ```
 
 ## 🧭 Uso de la aplicación
