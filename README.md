@@ -537,3 +537,8 @@ Para preguntas o sugerencias, contacta al desarrollador:
 ---
 
 ¡Gracias por usar el Conversor de Monedas! 💰
+
+## Autor
+
+| [<img src="https://avatars.githubusercontent.com/u/e?email=cisco_red%40outlook.com&s=100" width=90><br><sub>Jose Francisco Toledo</sub>](https://github.com/ciscored3507) |
+| :---: |
