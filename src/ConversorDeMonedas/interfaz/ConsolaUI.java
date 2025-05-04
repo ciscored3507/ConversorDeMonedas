@@ -83,7 +83,7 @@ public class ConsolaUI {
                         throw new NumberFormatException();
                     }
                 } catch (NumberFormatException e) {
-                    System.out.println("Cantidad no valida.\n-⚠\uFE0FDebe ser un numero positivo.\n-❗Las letras no son numeros.");
+                    System.out.println("Cantidad no valida.\n- Debe ser un numero positivo.\n- Las letras no son numeros.");
                     System.out.println("_______________________________________");
                     continue;
                 }
@@ -131,7 +131,7 @@ public class ConsolaUI {
                 if (resultado == 0 || monedaOrigen.equals(monedaDestino)) {
                     System.out.println("_______________________________________");
                     System.out.println("En serio!!!");
-                    System.out.printf("¿Quieres convertir %.2f %s (%s) a %s (%s)?\n",
+                    System.out.printf("Quieres convertir %.2f %s (%s) a %s (%s)?\n",
                             cantidad,
                             monedaOrigen,
                             convertidor.obtenerNombreMoneda(monedaOrigen),
@@ -144,6 +144,14 @@ public class ConsolaUI {
                         System.out.println("Al menos esta conversion nunca tendra problemas de redondeo");
                     } else {
                         System.out.println("Se convirtio correctamente");
+                        System.out.printf("%s - %s : %.2f\n",
+                                monedaOrigen,
+                                convertidor.obtenerNombreMoneda(monedaOrigen),
+                                cantidad);
+                        System.out.printf("%s - %s : %.2f\n",
+                                monedaDestino,
+                                convertidor.obtenerNombreMoneda(monedaDestino),
+                                resultado);
                         System.out.println("La app funciona, pero no era necesario");
                         System.out.println("Al menos ya sabes que tienen el mismo valor");
                     }
