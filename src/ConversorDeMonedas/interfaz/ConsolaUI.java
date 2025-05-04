@@ -141,7 +141,7 @@ public class ConsolaUI {
                     if (resultado == 0) {
                         System.out.println("¿Seguro que necesitabas un programa para saber que 0 es igual a 0?");
                         System.out.println("Resultado: 0.0 (implementacion perfecta, pero ¿para qué?)");
-                        System.out.println("(¡Al menos esta conversion nunca tendra problemas de redondeo)");
+                        System.out.println("(Al menos esta conversion nunca tendra problemas de redondeo)");
                     } else {
                         System.out.println("Se convirtio correctamente");
                         System.out.println("La app funciona, pero no era necesario");
@@ -203,7 +203,7 @@ public class ConsolaUI {
                 intentosFallidos++;
                 if (intentosFallidos >= MAX_INTENTOS) {
                     if (opcion.equals("42")){
-                        System.out.println("¡Correcto! Pero 42 es la respuesta al universo,");
+                        System.out.println("Correcto! Pero 42 es la respuesta al universo,");
                         System.out.println("no a un conversor de monedas. Intenta con 1-7");
                     }else {
                         mostrarChisteProgramador();
@@ -215,7 +215,7 @@ public class ConsolaUI {
     }
     private void mostrarChisteProgramador() {
         String[] chistes = {
-                "¡Cuidado! Tu indecision podria causar un stack overflow.",
+                "Cuidado! Tu indecision podria causar un stack overflow.",
                 "Hay 10 tipos de personas: las que saben binario y las que no.",
                 "No eres indeciso... solo estas en un loop while(condicionNoClara).",
                 "Mi codigo tiene 99 problemas, pero el indentado no es uno.",
@@ -225,7 +225,7 @@ public class ConsolaUI {
 
         int chisteAleatorio = new Random().nextInt(chistes.length);
 
-        System.out.println("\n¡Ups! Parece que te cuesta elegir una opcion...");
+        System.out.println("\nUps! Parece que te cuesta elegir una opcion...");
         System.out.println("Aqui tienes un chiste para relajarte:");
         System.out.println(chistes[chisteAleatorio]);
         System.out.println("Intentalo de nuevo, esta vez con mas calma\n");
