@@ -1,10 +1,12 @@
 # Conversor de Monedas - README
 
-[![ExchangeRate-API](https://img.shields.io/badge/ExchangeRate_API-v6-%23006FEE?style=for-the-badge&logo=currency-exchange&logoColor=white)](https://www.exchangerate-api.com)
-[![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-2023.3-%23000000?style=for-the-badge&logo=intellijidea&logoColor=white)](https://www.jetbrains.com/idea/)
-![Java HTTPCLIENT](https://img.shields.io/badge/Java_HttpClient-11%2B-%23ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JAVA](https://img.shields.io/badge/Java-17%2B-blue)
-![GSON](https://img.shields.io/badge/GSON-2.13.1-%23ED1C24?logo=google&logoColor=white)
+![ExchangeRate-API](https://img.shields.io/badge/ExchangeRate_API-v6-blue)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-2025.1-black)
+![Java HTTPCLIENT](https://img.shields.io/badge/Java_HttpClient-11+-orange)
+![JAVA](https://img.shields.io/badge/Java-17+-blue)
+![GSON](https://img.shields.io/badge/GSON-2.13.1-red)
+![Release Date](https://img.shields.io/badge/ReleaseDate-Mayo%202025-green)
+
 
 ## 📌 Descripción
 
