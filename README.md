@@ -6,18 +6,6 @@
 ![JAVA](https://img.shields.io/badge/Java-17%2B-blue)
 ![GSON](https://img.shields.io/badge/GSON-2.13.1-%23ED1C24?logo=google&logoColor=white)
 
-## Índice
-
-*[Título e imagen de portada](#🛠️-dependencias)
-
-*[Insignias](#insignias)
-
-*[Índice](#índice)
-
-*[Descripción del proyecto](#descripción-del-proyecto)
-
-*[Estado del proyecto](#Estado-del-proyecto)
-
 ## 📌 Descripción
 
 El **Conversor de Monedas** es una aplicación Java que permite realizar conversiones entre diferentes divisas utilizando tasas de cambio actualizadas en tiempo real. La aplicación obtiene los datos de [Exchange Rate API](https://www.exchangerate-api.com/) y ofrece una interfaz de usuario intuitiva por línea de comandos.
