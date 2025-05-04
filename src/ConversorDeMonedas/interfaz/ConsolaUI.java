@@ -152,7 +152,7 @@ public class ConsolaUI {
                     // Mostrar resultado normal de conversión
                     System.out.println(" ************************************* ");
                     System.out.println("|_________Conversor de monedas________|");
-                    System.out.println("|       ¡¡Conversión realizada!!      |");
+                    System.out.println("|         Conversion realizada!       |");
                     System.out.println("|_____________________________________|");
                     System.out.printf("%s - %s : %.2f\n",
                             monedaOrigen,
